@@ -1,0 +1,90 @@
+body {
+    background: #DFE3E6;
+    font-size: 0.8em;
+    line-height: 1.6em;
+}
+
+main,
+header,
+footer {
+    width: 960px;
+}
+
+main {
+    background: #FFFFFF url('../images/bg.gif') repeat-y;
+    margin: 20px auto 0 auto;
+}
+
+header {
+    height: 235px;
+    background: url('../images/header.gif') no-repeat;
+}
+
+nav,
+section,
+aside {
+    float: left;
+    min-height: 200px;
+}
+
+nav {
+    width: 230px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a.navigation {
+    display: block;
+    margin-bottom: 15px;
+    width: 120px;
+    text-decoration: none;
+}
+
+nav ul li a.navigation:hover {
+    background: #EDEDED;
+    color: #000000;
+}
+
+section {
+    width: 460px;
+    margin: 0 20px;
+}
+
+section .vprospect {
+    background: url('../images/logo_vprospect.gif');
+}
+
+section .vconvert {
+    background: url('../images/logo_vconvert.gif');
+}
+
+section .vretain {
+    background: url('../images/logo_vretain.gif');
+}
+
+section .vprospect,
+section .vconvert,
+section .vretain {
+    padding-left: 70px;
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+}
+
+aside {
+    width: 220px;
+    padding-right: 10px;
+}
+
+section h2,
+aside h2,
+nav ul li a {
+    background: url('../images/icon_checker.gif') no-repeat 7px;
+}
+
+footer {
+    height: 30px;
+    background: url('../images/footer.gif') no-repeat;
+    clear: both;
+}
